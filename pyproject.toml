@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sup_res"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.6"
+torch = "^1.11.0"
+numpy = "^1.22.4"
+opencv-python = "^4.5.5"
+Pillow = "^9.1.1"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
